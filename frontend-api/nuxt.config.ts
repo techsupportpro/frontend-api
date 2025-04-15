@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 	vite: {
 		server: {
 			// Allow the specific host causing the issue	
-		allowedHosts: ['https://frontend-api-c542.onrender.com/']	
+		allowedHosts: ['frontend-api-c542.onrender.com']	
 		}	
 	}
 })
