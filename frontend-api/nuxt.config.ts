@@ -24,5 +24,11 @@ export default defineNuxtConfig({
 	components: [{
 		path: '~/components',
 		pathPrefix: false,
-	}]
+	}],
+	vite: {
+		server: {
+			// Allow the specific host causing the issue	
+		allowedHosts: ['https://frontend-api-c542.onrender.com/']	
+		}	
+	}
 })
